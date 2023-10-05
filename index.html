@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="./dist/index.css">
+    <title>Document</title>
+</head>
+<style>
+    header {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url('./imgs/p.png');
+
+    }
+</style>
+
+<body class="bg-[#FAF4F2]">
+    <aside id="sideNav"
+        class="absolute p-5  duration-500 -left-full  w-4/6 bg-[rgba(0,0,0,.8)] text-white z-auto h-screen">
+        <div class="logo w-10  mr-3 ">
+            <img src="./imgs/Group 86.png" alt="" />
+        </div>
+        <ul class="flex gap-4  pt-28 flex-col lg:flex-grow grow  ">
+
+            <li class=" text-main"><a href="#">Home</a></li>
+            <li class=" "><a href="#">Destination</a>
+            </li>
+            <li class=""><a href="#">Nearme</a>
+            </li>
+            <li class=""><a href="#">Events</a>
+            </li>
+            <li class=""><a href="#">Blog</a>
+            </li>
+            <li class=""><a href="#">Gallery</a>
+            </li>
+            <li><a href="#">About</a>
+            </li>
+            <li><a href="#">Contact
+                    us</a>
+            </li>
+        </ul>
+        <ul class=" text-white gap-2 flex flex-col ">
+            <button>Sign up</button>
+            <button class="border border-links-color rounded-full py-1 px-3">Sign in</button>
+        </ul>
+    </aside>
+    <header class="bg-center rounded-b-[80px]  md:rounded-b-[150px] overflow-hidden">
+        <div class="container mx-auto">
+            <div class="flex p-3">
+                <div class="logo w-10  mr-3 ">
+                    <img src="./imgs/Group 86.png" alt="" />
+                </div>
+                <div class="lg:flex pb-20 w-full ">
+                    <label id="menu"
+                        class="ml-auto block lg:hidden cursor-pointer text-xl box-border rounded h-11 w-11 text-center leading-10 bg-white"><i
+                            class="fa-solid fa-bars text-main"></i></label>
+                    <div class="hidden lg:flex justify-between grow w-full">
+                        <ul class=" lg:flex lg:flex-grow grow  ">
+                            <li class="lg:mr-8 flex items-center justify-center text-main"><a href="#">Home</a></li>
+                            <li class="lg:mr-8 flex items-center justify-center text-links-color"><a
+                                    href="#">Destination</a>
+                            </li>
+                            <li class="lg:mr-8 flex items-center justify-center text-links-color"><a href="#">Nearme</a>
+                            </li>
+                            <li class="lg:mr-8 flex items-center justify-center text-links-color"><a href="#">Events</a>
+                            </li>
+                            <li class="lg:mr-8 flex items-center justify-center text-links-color"><a href="#">Blog</a>
+                            </li>
+                            <li class="lg:mr-8 flex items-center justify-center text-links-color"><a
+                                    href="#">Gallery</a>
+                            </li>
+                            <li class="lg:mr-8 flex items-center justify-center text-links-color"><a href="#">About</a>
+                            </li>
+                            <li class="lg:mr-8 flex items-center justify-center text-links-color"><a href="#">Contact
+                                    us</a>
+                            </li>
+                        </ul>
+                        <ul class="flex text-white gap-2 justify-center items-center flex-col lg:flex-row">
+                            <button>Sign up</button>
+                            <button class="border border-links-color rounded-full py-1 px-3">Sign in</button>
+                        </ul>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div
+            class="container mx-auto  lg:p-20 pb-20 md:pt-32 text-white flex-col lg:w-1/2  flex items-center justify-center ">
+            <h1 class="bold text-5xl md:text-6xl font-Arch text-center">Find Yourself<br>
+                Outside.</h1>
+            <p class="text-center mt-5 px-4 md:p-0 ">Book unique camping experiences on over 300,000 campsites,
+                cabins, RV
+                parks,
+                public
+                parks and more.
+            </p>
+            <button class="mb-32   btn-content mt-6 "> Discover</button>
+        </div>
+    </header>
+    <!-- Services -->
+    <div class="bg-[#FAF4F2]">
+        <div class="container mx-auto grid gap-5 -translate-y-24 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  px-6 ">
+            <div data-aos-duration="900" data-aos="fade-up"
+                class="box mb-5 flex flex-col  rounded-xl p-5 pt-11 items-center bg-white">
+                <img src="./imgs/bonfire.png" class="w-20" alt="" />
+                <span class="text-black bold font-Arch mt-5">Camping & Day Use</span>
+                <p class="text-center">Return to your favorite spot or discover a new one that’s right for you.</p>
+
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000"
+                class="box  select-none mb-5 flex flex-col  rounded-xl p-5 pt-11 items-center bg-white">
+                <img src="./imgs/bonfire.png" class="w-20" alt="" />
+                <span class="text-black bold select-none font-Arch mt-5">Camping & Day Use</span>
+                <p class="text-center">Return to your favorite spot or discover a new one that’s right for you.</p>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1300"
+                class="box mb-5 flex flex-col  rounded-xl p-5 pt-11 items-center bg-white">
+                <img src="./imgs/bonfire.png" class="w-20" alt="" />
+                <span class="text-black bold font-Arch mt-5">Camping & Day Use</span>
+                <p class="text-center">Return to your favorite spot or discover a new one that’s right for you.</p>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1500"
+                class="box mb-5 flex flex-col   rounded-xl p-5 pt-11 items-center bg-white">
+                <img src="./imgs/bonfire.png" class="w-20" alt="" />
+                <span class="text-black bold font-Arch mt-5">Camping & Day Use</span>
+                <p class="text-center">Return to your favorite spot or discover a new one that’s right for you.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Explore Destinations  -->
+    <div class="py-5 flex items-center flex-col -translate-y-16">
+        <p class="text-center font-Arch font-bold text-2xl">Explore Destinations<br> & Activities</p>
+    </div>
+    <div class="bg-[#F8E1DB]">
+        <div class="grid-cols-1 md:grid-cols-2 w-full py-10 container mx-auto grid lg:grid-cols-4 gap-4 "
+            id="activities">
+            <div class="card hidden rounded-lg ">
+                <img src="${imgUrl}" alt="" />
+                <div class="p-4 w-fit font-bold text-main  rounded-lg -translate-y-1/2 bg-white">${badge}</div>
+                <h1 class="font-bold font-Arch text-xl">title</h1>
+                <p>${desc}</p>
+                <button type='submit' class="py-2 mt-3 bg-gray-100 px-8 rounded-full">Read More</button>
+            </div>
+        </div>
+        <button id="showMore" class="mx-auto block py-2 px-4 border border-main w-fit rounded-full">show More</button>
+    </div>
+    <div class="container mx-auto rounded-lg grid-cols-2 grid md:grid-cols-5 overflow-hidden">
+        <div class="pt-20 shadow-sm col-span-3 mx-auto lg:mx-0">
+            <h1 class=" text-3xl font-bold text-center md:text-left">Let's Stay in Touch</h1>
+            <p class=" w-fit text-center md:text-left my-4">Get travel planning ideas, helpful tips, and stories from
+                our
+                visitors<br>
+                delivered right
+                to
+                your inbox.</p>
+            <div class=" relative w-[60%] h-[3rem]  mx-auto md:mx-0 order-2 ">
+                <input type="text" class="w-full h-full absolute rounded-xl placeholder:pl-8"
+                    placeholder="Email Address" />
+                <button class="rounded-2xl absolute right-2 top-1 text-white w-[40px] bg-main h-[40px]">></button>
+            </div>
+        </div>
+        <img src="./imgs/Group 316.png" class='col-span-2 h-full order-1 jump	' alt="" />
+    </div>
+    <div class=" rounded-t-[100px] bg-[#F8E1DB]">
+        <div class="container mx-auto py-20  grid grid-cols-2 lg:grid-cols-5 gap-3 text-[#3B3735]">
+            <div class="col-span-2">
+                <h2 class=" text-xl mb-3 font-bold">Hipcamp is everywhere you want to camp.</h2>
+                <p>Discover unique experiences on ranches, nature preserves, farms, vineyards, and public campgrounds
+                    across the U.S. Book tent camping, treehouses, cabins, yurts, primitive backcountry sites, car
+                    camping, airstreams, tiny houses, RV camping, glamping tents and more.</p>
+                <span>Download Our App</span>
+                <div class="flex mt-5 ">
+
+                    <img src="./imgs/download-on-the-app-store-apple-1.png" class="mr-4" />
+                    <img src="./imgs/google-play-badge-1.png" />
+                </div>
+            </div>
+            <ul class="">
+                <li class="text-xl mb-3 font-bold">Get to Know Us</li>
+                <li>About Us</li>
+                <li>Rules & Reservation Policies</li>
+                <li>Accessibility</li>
+                <li>Media Center</li>
+                <li>Site Map</li>
+            </ul>
+            <ul>
+                <li class=" text-xl mb-3 font-bold">Plan with Us</li>
+                <li>Find Trip Inspiration</li>
+                <li>Build a Trip</li>
+                <li>Buy a Pass</li>
+                <li>Enter a Lottery</li>
+            </ul>
+            <ul>
+                <li class=" text-xl mb-3 font-bold">Let Us Help You</li>
+                <li>Your Account</li>
+                <li>Your Reservations</li>
+                <li>Contact Us</li>
+                <li>Help Center</li>
+                <li>Submit Feedback</li>
+            </ul>
+        </div>
+    </div>
+    <!-- <button type="button" id='UP'>Up</button> -->
+
+    <script src="./dist/mian.js"></script>
+</body>
+
+</html>
