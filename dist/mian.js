@@ -173,7 +173,7 @@ AOS.init({
   duration: 1200,
 });
 const loadingLayout = document.getElementById("loading");
-loadingLayout.classList.remove("hidden");
+
 window.onload = function () {
   setTimeout(() => {
     loadingLayout.classList.add("hidden");
