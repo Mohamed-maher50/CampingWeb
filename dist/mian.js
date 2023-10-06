@@ -163,6 +163,20 @@ window.onscroll = function (ev) {
     UP.classList.remove("active");
   }
 };
+UP.onclick = function () {
+  window.scrollTo({
+    behavior: "smooth",
+    top: 0,
+  });
+};
 AOS.init({
   duration: 1200,
 });
+const loadingLayout = document.getElementById("loading");
+loadingLayout.classList.remove("hidden");
+window.onload = function () {
+  console.log(loadingLayout);
+  setTimeout(() => {
+    loadingLayout.classList.add("hidden");
+  }, 2000);
+};

@@ -3,6 +3,6 @@
     "tailwindcss": "^3.2.2"
   },
   "scripts": {
-    "maher": "npx tailwindcss -i ./src/mian.css -o ./dist/index.css --watch"
+    "tailwindcss": "npx tailwindcss -i ./src/mian.css -o ./dist/index.css --watch"
   }
 }
